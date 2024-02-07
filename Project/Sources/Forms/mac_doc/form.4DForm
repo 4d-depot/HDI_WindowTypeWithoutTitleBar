@@ -1,0 +1,171 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 200,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [
+		"onLoad",
+		"onOutsideCall",
+		"onPluginArea",
+		"onTimer",
+		"onAfterEdit",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 0,
+					"width": 360,
+					"height": 40,
+					"stroke": "transparent",
+					"bottom": 41,
+					"fill": "automatic",
+					"sizingX": "grow"
+				},
+				"btnDragWindow": {
+					"type": "button",
+					"text": "",
+					"top": 0,
+					"left": 0,
+					"width": 362,
+					"height": 40,
+					"events": [
+						"onClick"
+					],
+					"style": "custom",
+					"display": false,
+					"method": "ObjectMethods/btnDragWindow.4dm"
+				},
+				"btnClose": {
+					"type": "button",
+					"text": "",
+					"top": 10,
+					"left": 10,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave"
+					],
+					"style": "custom",
+					"icon": "/RESOURCES/images/mac/close.png",
+					"iconFrames": 4,
+					"method": "ObjectMethods/btnClose.4dm"
+				},
+				"btnMinus": {
+					"type": "button",
+					"text": "",
+					"top": 10,
+					"left": 34,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave"
+					],
+					"style": "custom",
+					"icon": "/RESOURCES/images/mac/minus.png",
+					"iconFrames": 4,
+					"method": "ObjectMethods/btnMinus.4dm"
+				},
+				"btnPlus": {
+					"type": "button",
+					"text": "",
+					"top": 10,
+					"left": 59,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave"
+					],
+					"style": "custom",
+					"icon": "/RESOURCES/images/mac/plus.png",
+					"iconFrames": 4,
+					"method": "ObjectMethods/btnPlus.4dm"
+				},
+				"SearchPicker": {
+					"type": "subform",
+					"top": 5,
+					"left": 155,
+					"width": 205,
+					"height": 30,
+					"dataSource": "vSearch",
+					"dataSourceTypeHint": "text",
+					"detailForm": "SearchPicker",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/SearchPicker.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					],
+					"sizingX": "move"
+				},
+				"List Box": {
+					"type": "listbox",
+					"left": 22,
+					"top": 64,
+					"width": 319,
+					"height": 110,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.dataList",
+					"columns": [
+						{
+							"header": {
+								"text": "Name",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.value",
+							"width": 284
+						}
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 246,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"colorScheme": "light",
+	"method": "method.4dm"
+}

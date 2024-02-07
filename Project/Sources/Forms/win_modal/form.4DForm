@@ -1,0 +1,149 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onOutsideCall",
+		"onPluginArea",
+		"onTimer",
+		"onAfterEdit",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 360,
+					"height": 40,
+					"stroke": "transparent",
+					"bottom": 40,
+					"fill": "#FFFFFF",
+					"sizingX": "grow"
+				},
+				"btnDragWindow": {
+					"type": "button",
+					"text": "",
+					"top": 0,
+					"left": 0,
+					"width": 360,
+					"height": 40,
+					"events": [
+						"onClick"
+					],
+					"style": "custom",
+					"display": false,
+					"method": "ObjectMethods/btnDragWindow.4dm",
+					"right": 360
+				},
+				"btnClose": {
+					"type": "button",
+					"top": 0,
+					"left": 328,
+					"width": 32,
+					"height": 32,
+					"events": [
+						"onClick"
+					],
+					"style": "custom",
+					"icon": "/RESOURCES/Images/win/close.png",
+					"iconFrames": 4,
+					"method": "ObjectMethods/btnClose.4dm",
+					"sizingX": "move"
+				},
+				"btnMinus": {
+					"type": "button",
+					"top": 0,
+					"left": 264,
+					"width": 32,
+					"height": 32,
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave"
+					],
+					"style": "custom",
+					"icon": "/RESOURCES/Images/win/minimize.png",
+					"iconFrames": 4,
+					"sizingX": "move"
+				},
+				"btnPlus": {
+					"type": "button",
+					"top": 0,
+					"left": 296,
+					"width": 32,
+					"height": 32,
+					"events": [
+						"onClick"
+					],
+					"style": "custom",
+					"icon": "/RESOURCES/Images/win/maximize.png",
+					"iconFrames": 4,
+					"method": "ObjectMethods/btnPlus.4dm",
+					"sizingX": "move"
+				},
+				"btnOK": {
+					"type": "button",
+					"text": "OK",
+					"top": 140,
+					"left": 280,
+					"width": 66,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"action": "cancel",
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Hello world!",
+					"top": 60,
+					"left": 29,
+					"width": 298,
+					"height": 62
+				},
+				"btnHelp": {
+					"type": "button",
+					"text": "Button",
+					"top": 8,
+					"left": 10,
+					"width": 25,
+					"height": 25,
+					"events": [
+						"onClick"
+					],
+					"style": "help",
+					"method": "ObjectMethods/btnHelp.4dm"
+				}
+			}
+		}
+	],
+	"geometryStamp": 294,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"colorScheme": "light"
+}

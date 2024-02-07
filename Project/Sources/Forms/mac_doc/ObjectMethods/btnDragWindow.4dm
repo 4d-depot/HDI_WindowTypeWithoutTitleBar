@@ -1,0 +1,5 @@
+If (bTrace)
+	TRACE:C157
+End if 
+
+DRAG WINDOW:C452
