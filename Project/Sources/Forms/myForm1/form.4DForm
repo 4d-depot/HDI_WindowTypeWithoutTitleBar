@@ -73,7 +73,7 @@
 				},
 				"Button3": {
 					"type": "button",
-					"text": "Reduce",
+					"text": "Reduce/Restore",
 					"top": 70,
 					"left": 190,
 					"width": 150,

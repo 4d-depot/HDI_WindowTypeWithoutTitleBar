@@ -165,7 +165,7 @@
 				},
 				"btnModal": {
 					"type": "button",
-					"text": "Movable dialog Box No Title",
+					"text": "Movable form dialog Box No Title",
 					"top": 373,
 					"left": 330,
 					"width": 300,
@@ -203,7 +203,7 @@
 				},
 				"btnMacPlain": {
 					"type": "button",
-					"text": "Plain Form Window No Title",
+					"text": "Plain form window No Title",
 					"top": 327,
 					"left": 100,
 					"width": 300,
@@ -215,7 +215,7 @@
 				},
 				"btnMacModal": {
 					"type": "button",
-					"text": "Movable dialog Box No Title",
+					"text": "Movable form dialog box No Title",
 					"top": 373,
 					"left": 100,
 					"width": 300,
@@ -227,7 +227,7 @@
 				},
 				"btnWinPlain": {
 					"type": "button",
-					"text": "Plain Form Window No Title",
+					"text": "Plain form window No Title",
 					"top": 327,
 					"left": 560,
 					"width": 300,
@@ -239,7 +239,7 @@
 				},
 				"btnWinModal": {
 					"type": "button",
-					"text": "Movable dialog Box No Title",
+					"text": "Movable form dialog box No Title",
 					"top": 373,
 					"left": 560,
 					"width": 300,
@@ -294,7 +294,7 @@
 				},
 				"Button2": {
 					"type": "button",
-					"text": "Create Window",
+					"text": "Create window",
 					"top": 121,
 					"left": 576,
 					"width": 256,
@@ -306,7 +306,7 @@
 				},
 				"Button3": {
 					"type": "button",
-					"text": "Minimize/Maximize Window",
+					"text": "Minimize/Maximize window",
 					"top": 166,
 					"left": 576,
 					"width": 256,
@@ -318,7 +318,7 @@
 				},
 				"Button4": {
 					"type": "button",
-					"text": "Reduce/Restore Window",
+					"text": "Reduce/Restore window",
 					"top": 211,
 					"left": 576,
 					"width": 256,

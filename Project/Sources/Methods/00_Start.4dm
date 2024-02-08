@@ -23,7 +23,7 @@ Case of
 		If (Shift down:C543)  //  for debug purpose only
 			$win:=Open form window:C675("HDI"; Plain form window:K39:10; Horizontally centered:K39:1; Vertically centered:K39:4)
 		Else 
-			$win:=Open form window:C675("HDI"; Plain form window:K39:10+0x00080000; Horizontally centered:K39:1; Vertically centered:K39:4)
+			$win:=Open form window:C675("HDI"; Plain form window no title:K39:19; Horizontally centered:K39:1; Vertically centered:K39:4)
 		End if 
 		
 		$options:=New object:C1471
@@ -33,7 +33,7 @@ Case of
 		$options.blog:="blog.4d.com"
 		$options.info:="User Interface"  //ex : "4D View Pro feature"
 		
-		$options.minimumVersion:="2040"  // 1660 means 16R6   1601 means 16.1 (do not use !)
+		$options.minimumVersion:="2050"  // 1660 means 16R6   1601 means 16.1 (do not use !)
 		
 		// $options.license:=4D View license  // IF ANY NEEDED
 		
