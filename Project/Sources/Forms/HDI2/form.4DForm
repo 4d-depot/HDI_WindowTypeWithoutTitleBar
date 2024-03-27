@@ -307,7 +307,7 @@
 				"Button3": {
 					"type": "button",
 					"text": "Minimize/Maximize window",
-					"top": 166,
+					"top": 226,
 					"left": 576,
 					"width": 256,
 					"height": 25,
@@ -319,7 +319,7 @@
 				"Button4": {
 					"type": "button",
 					"text": "Reduce/Restore window",
-					"top": 211,
+					"top": 271,
 					"left": 576,
 					"width": 256,
 					"height": 25,
@@ -331,7 +331,7 @@
 				"Button5": {
 					"type": "button",
 					"text": "Check if window is reduced",
-					"top": 256,
+					"top": 316,
 					"left": 576,
 					"width": 256,
 					"height": 25,
@@ -343,7 +343,7 @@
 				"Button11": {
 					"type": "button",
 					"text": "Check if the window is maximized",
-					"top": 301,
+					"top": 361,
 					"left": 576,
 					"width": 256,
 					"height": 25,
@@ -366,5 +366,5 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 238
+	"geometryStamp": 241
 }
