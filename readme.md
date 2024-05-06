@@ -2,7 +2,7 @@
 
 Customize the application appearance with the new form types and commands  (4D v20 R5)
 
-Find more information on the [blog post](https://blog.4d.com/).
+Find more information on the [blog post](https://blog.4d.com/customize-app-appearance-with-new-windows-types/).
 
 ## Installing and Using a 4D Project
 
